@@ -1,8 +1,8 @@
 namespace tabuleiro
 {
-    Class Tabuleiro 
+    class Tabuleiro 
     {
-         public int linha { get; set; }
+         public int linhas { get; set; }
          public int colunas { get; set; }
          private Peca[,] pecas;
 
