@@ -9,9 +9,9 @@ namespace tabuleiro
         {
             Tabuleiro tab = new Tabuleiro(8, 8);
 
-            Console.ReadLine();
+            Tela.imprimirTabuleiro(tab);
 
-            Console.WriteLine("Sucesso! " + tab);
+            Console.ReadLine();
         }
     }
 }
